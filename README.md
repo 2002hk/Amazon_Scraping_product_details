@@ -49,4 +49,8 @@ scrapy shell
 - Scrapes detailed product information:
 - Name, Price, Brand, Memory Storage Capacity, Hardware Interface, Features, Write Speed
 - Stores data in an AmazonScraperItem object and yields it.
+## Potential Enhancements
+- Implement pagination detection instead of hardcoding page numbers.
+- Add error handling for cases where product details are missing.
+- Store scraped data in JSON/CSV using Scrapy’s feed exports.
 
